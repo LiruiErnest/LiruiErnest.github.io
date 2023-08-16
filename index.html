@@ -9,7 +9,8 @@
 
 	<!-- Bootstrap core CSS -->
 	<!-- <link href="public/stylesheets/bootstrap.min.css" rel="stylesheet"> -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
 	<link href="public/stylesheets/scrolling-nav.css" rel="stylesheet">
 </head>
@@ -35,13 +36,13 @@
 						<a class="nav-link js-scroll-trigger" href="#home">Home</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#employment">Experience</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#research">Publications</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#employment">Employment</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#project">Project</a>
+						<a class="nav-link js-scroll-trigger" href="#project">Projects</a>
 					</li>
 				</ul>
 			</div>
@@ -204,24 +205,26 @@
 						<a href="https://ieeexplore.ieee.org/abstract/document/9337213/" target="_blank">Vis30k: A
 							collection of figures
 							and tables from IEEE visualization conference publications.</a>
-						<br> Jian Chen, Meng Ling, Rui Li, Petra Isenberg, Tobias Isenberg, Michael Sedlmair, Torsten
+						<br> Jian Chen, Meng Ling, <b>Rui Li</b>, Petra Isenberg, Tobias Isenberg, Michael Sedlmair, Torsten
 						Möller,
 						Robert S Laramee, Han-Wei Shen, Katharina Wünsche, Qiru Wang.
 						<br>IEEE Transactions on Visualization and Computer Graphics, 2021
 					</p>
 					<p>
 						<a href="https://pubmed.ncbi.nlm.nih.gov/32985996/" target="_blank">Marrying medical domain
-							knowledge with deep learning on electronic health records: a deep visual analytics
+							knowledge with deep learning on electronic health records: a deep visual analytics
 							approach.</a>
-						<br> Rui Li, Changchang Yin, Samuel Yang, Buyue Qian, Ping Zhang.
+						<br> <b>Rui Li</b>, Changchang Yin, Samuel Yang, Buyue Qian, Ping Zhang.
 						<br> Journal of Medical Internet Research., 2020
+						<br> <b>Best bioinformatics paper by visual analytics working group and featured by AMIA Year in
+							Review (2021)</b>
 					</p>
 					<p>
 						<a href="https://arxiv.org/abs/1808.00607" target="_blank">Toward A Deep Understanding of What
 							Makes a
 							Scientific Visualization Memorable</a> <a
 							href="https://ivclexp.github.io/scivismemorability/">[online demo]</a>
-						<br> Rui Li and Jian Chen.
+						<br>  <b>Rui Li</b> and Jian Chen.
 						<br> IEEE Scientific Visualization (SciVis), 2018
 					</p>
 
@@ -229,7 +232,7 @@
 						<a href="https://www.sciencedirect.com/science/article/pii/S1045926X16301410"
 							target="_blank">Visual subspace
 							clustering based on dimension relevance</a>
-						<br> Jiazhi Xia, Guang Jiang, Yuhong Zhang, Rui Li, Wei Chen.
+						<br> Jiazhi Xia, Guang Jiang, Yuhong Zhang,  <b>Rui Li</b>, Wei Chen.
 						<br> Journal of Visual Languages and Computing, 2017
 					</p>
 
@@ -253,7 +256,7 @@
 			<div class="row">
 				<div class="col-12">
 					<p>
-						WebGL 2.0 Tutorial designed for the Real Time Rendering Course <a
+						<strong>WebGL 2.0 Tutorial</strong>: A tutorial designed for the Real Time Rendering Course <a
 							href="https://liruiernest.github.io/WebGL2-tutorial/" target="_blank">[demo]</a>
 						<br>
 						<i>(WebGL based)</i>
@@ -263,257 +266,155 @@
 				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/real-time-1.png"></div>
 			</div>
 
-
+			<br>
 
 			<div class="row">
-
 				<div class="col-12">
-
-
-
 					<p>
-						<br>
-						Viscolumbus - A web based system for visualizing economy development in Columbus city
+						<b>ImageCoder</b>: ImageCoder is a web-based image annotation tool for researchers in scientific
+						disciplines to annotate images collaboratively. The main goal of ImageCoder is to alleviate the
+						process of disagreement resolution in collaborative annotation. ImageCoder supports the
+						annotation of conventional static images as well as giga-pixel medical images. As of 2023,
+						ImageCoder has been used for three global scientific annotation projects. <a
+							href="https://www.youtube.com/embed/1KzUfgVudc0" target="_blank">[demo video]</a><br>
+						<i>(Flask + Jinja2 + Sqlite + OpenSeaDragon)</i>
+					</p>
+				</div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/image-coder-0.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/image-coder-1.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/image-coder-2.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/image-coder-3.png"></div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-12">
+					<p>
+						<b>DGViz</b>: DG-Viz, an interactive clinical prediction system, which brings together the power
+						of deep learning (ie, a DG-RNN–based model) and visual analytics to predict clinical risks and
+						visually interpret the EHR prediction results. <br>
+						<i>(Flask + Pytorch + D3.js + Echart.js + Sigma.js)</i>
+					</p>
+				</div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/dgviz-0.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/dgviz-1.png"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-12">
+					<p>
+						<b>Viscolumbus</b>: A web based system for visualizing economy development in Columbus city.
 						<br>
 						<i>(Node.js+MongoDB+d3.js+Leaflet.js)</i>
 					</p>
 				</div>
-
-
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis1.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis2.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis3.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis4.png"></div>
 			</div>
 
-			<div class="row">
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis1.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis2.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis3.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis4.png">
-
-				</div>
-
-			</div>
+			<br>
 
 			<div class="row">
-
 				<div class="col-12">
 					<p>
-						<br>
-						PokemonGo Game <a href="http://web.cse.ohio-state.edu/~li.8950/project/CSE5542/pokemon/">[online
-							demo]</a>
-						<br>
+						<b>PokemonGo Game</b>: The final project of CSE 5542 (Real time rendering). <a
+							href="http://web.cse.ohio-state.edu/~li.8950/project/CSE5542/pokemon/" target="_blank">[online
+							demo]</a><br>
 						<i>(WebGL based)</i>
 					</p>
 				</div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis5.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis6.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis7.png"></div>
 			</div>
 
-			<div class="row">
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis5.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis6.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis7.png">
-
-				</div>
-			</div>
+			<br>
 
 			<div class="row">
-
 				<div class="col-12">
 					<p>
-						<br>
-						Structuring Local Metric Space: A Non-Parametric Method for Visual Subspace Analysis.
-						<br>
+						<b>SLMS</b>: Structuring Local Metric Space: A Non-Parametric Method for Visual Subspace Analysis. <br>
 						<i>(Django+d3.js)</i>
 					</p>
 				</div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis8.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis9.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis10.png"></div>
 			</div>
 
-			<div class="row">
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis8.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis9.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis10.png">
-
-				</div>
-			</div>
+			<br>
 
 			<div class="row">
-
 				<div class="col-12">
 					<p>
-						<br>
-						Ray tracing
-						<br>
+						<b>Ray tracing</b> <br>
 						<i>(C++, OpenGL)</i>
 					</p>
 				</div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis16.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis17.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis18.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis19.png"></div>
 			</div>
 
-			<div class="row">
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis16.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis17.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis18.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis19.png">
-
-				</div>
-			</div>
+			<br>
+			
 
 			<div class="row">
-
 				<div class="col-12">
 					<p>
-						<br>
-						Image processing tookit.
-						<br>
+						<b>Image processing tookit.</b> <br>
 						<i>(C#)</i>
 					</p>
 				</div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis11.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis12.png"></div>
 			</div>
 
-			<div class="row">
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis11.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis12.png">
-
-				</div>
-			</div>
+			<br>
 
 			<div class="row">
-
 				<div class="col-12">
 					<p>
-						<br>
-						KTV multimedia system.
-						<br>
-						<i>(C#+SQL)</i>
+						<b>KTV multimedia system.</b> <br>
+						<i>(C# + MS SQL server)</i>
 					</p>
 				</div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis13.png"></div>
+				<div class="col-3"><img class="portfolio-img img-thumbnail" src="public/images/vis14.png"></div>
 			</div>
 
-			<div class="row">
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis13.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis14.png">
-
-				</div>
-
-				<div class="col-3">
-
-					<img class="portfolio-img" src="public/images/vis15.png">
-
-				</div>
-			</div>
-
-
-		</div>
+		
 	</section>
 
-	<!-- <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+
+	<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel"
 		aria-hidden="true">
-		<div class="modal-dialog">
+		<div class="modal-dialog modal-dialog-centered modal-xl">
 			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="imageModalLabel">Enlarged Image</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+				</div>
 				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal"><span
-							aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-					<img src="" class="imagepreview" style="width: 100%;">
+					<img src="" class="img-fluid" alt="Enlarged Image">
 				</div>
 			</div>
 		</div>
-	</div> -->
-
-	<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered modal-xl">
-		  <div class="modal-content">
-			<div class="modal-header">
-			  <h5 class="modal-title" id="imageModalLabel">Enlarged Image</h5>
-			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      
-			</div>
-			<div class="modal-body">
-			  <img src="" class="img-fluid" alt="Enlarged Image">
-			</div>
-		  </div>
-		</div>
-	  </div>
+	</div>
 
 
 	<br>
 
 	<!-- Bootstrap core JavaScript -->
 	<script src="public/lib/jquery-3.3.1.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
 	<!-- <script src="public/lib/bootstrap.min.js"></script>
 	<script src="public/lib/bootstrap.bundle.min.js"></script> -->
 	<script src="public/lib/jquery.easing.min.js"></script>
